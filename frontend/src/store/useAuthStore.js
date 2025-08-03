@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 
 
-const BASE_URL = "http://localhost:5001"
+const BASE_URL = "https://chat-app-3-h7o1.onrender.com"
 
 
 export const useAuthStore = create((set, get) => ({
